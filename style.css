@@ -1,0 +1,41 @@
+* {
+    font-family: monospace;
+    color: #f1eeea;
+    text-shadow: #acaaa8 0 1px 0;
+}
+
+body {
+    margin: 0px;
+    background-color: #f1eeea;
+}
+
+div {
+    display: block;
+}
+
+nav {
+    height:200px;
+    width: 100%;
+    overflow:hidden;
+    overflow-y:scroll;
+    color: #242322;
+}
+
+#selectBar {
+    color: #fff;
+    background-color: #242322;
+    padding: 15px;
+    width: 100%;
+    /*box-shadow: 10px 10px 30px 10px #4e5968; */
+    box-shadow: inset;
+}
+
+#leftColumn {
+    background-color: #a8a5a2;
+    width: 20%;
+    border: 1px #242322 dashed;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: #242322;
+}
